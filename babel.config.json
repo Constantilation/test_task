@@ -43,9 +43,6 @@
        ]
      },
      "test": {
-       "transformIgnorePatterns": [
-         "node_modules/(?!my_buttons_story/.*)"
-       ],
        "presets": [
          "@babel/preset-typescript",
          "@babel/preset-env"
