@@ -5,6 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const debug = process.env.DEBUG === 'true';
 
 module.exports = {
+    mode: 'development',
     entry: './src/index.tsx',
     module: {
         rules: [
